@@ -1,0 +1,98 @@
+# Lab126 BCM4330 SOHO NVRAM FILE
+# 09-06-2013
+
+
+manfid=0x2d0
+prodid=0x0547
+vendid=0x14e4
+devid=0x4360
+boardtype=0x05e1
+boardrev=0x1250
+boardflags=0x0080200
+nocrc=1
+xtalfreq=37400
+boardnum=22
+macaddr=00:90:4c:c5:12:38
+ag0=255
+aa2g=1
+ccode=XZ
+regrev=30
+pa0itssit=0x20
+#PA Parameters for 2GHz band
+pa0b0=0x1807
+pa0b1=0xfdd1
+pa0b2=0xffaf
+rssismf2g=0x5
+rssismc2g=0x4
+rssisav2g=0x6
+#rssi params for 5GHz
+rssismf5g=0x4
+rssismc5g=0x3
+rssisav5g=0x7
+#PA parameters for lower a-band
+pa1lob0=0x143b
+pa1lob1=0xfdc4
+pa1lob2=0xff7d
+#PA parameters for midband
+pa1b0=0x12bb
+pa1b1=0xfe03
+pa1b2=0xff7f
+#PA parameters for high band
+pa1hib0=0x1598
+pa1hib1=0xFD6A
+pa1hib2=0xff75
+rxpo5g=0
+maxp2ga0=0x42
+maxp5ga0=0x3a
+maxp5gla0=0x3a
+maxp5gha0=0x3a
+# 2.4G Tx Power offsets
+#ofdm2gpo=0x66666666
+#mcs2gpo0=0x8888
+#mcs2gpo1=0x8888
+# 5G Tx Power offsets
+ofdm5gpo=0x44444444
+#ofdm5glpo=0x44444444
+ofdm5ghpo=0x22222222
+mcs5gpo0=0x4444
+mcs5gpo1=0x4444
+#mcs5glpo0=0x6666
+#mcs5glpo1=0x6666
+mcs5ghpo0=0x2222
+mcs5ghpo1=0x2222
+sromrev=3
+il0macaddr=00:90:4c:c5:12:38
+wl0id=0x431b
+cckPwrOffset=8
+swctrlmap_2g=0x44844484,0x42824282,0x40804484,0x18282,0x1ff
+triso5g=3
+swctrlmap_5g=0x00100010,0x20202020,0x20202020,0x14202,0x0f0
+noise_cal_ref_2g=53
+rfreg033=0x19
+rfreg033_cck=0x1f
+dacrate2g=160
+dacrate5g=160
+txalpfbyp2g=1
+bphyscale=17
+cckPwrIdxCorr=-15
+pacalpwr5glo=12
+pacalpwr5glo1=10
+pacalpwr5g=12
+pacalpwr5g1=10
+pacalpwr5ghi=12
+pacalpwr5ghi1=10
+pacalpwr2g=13
+pacalidx2g1=55
+txgaintbl=1
+rfreg088=15
+iqlost1off2g=32
+sd_gpout=0
+muxenab=0x10
+logen_mode=0x0,0x02,0x1b,0x0,0x1b
+logen_mode5g0=36,48,0,0xf
+logen_mode5g1=52,64,0,0xe
+logen_mode5g2=100,120,0,0xd
+logen_mode5g3=124,140,0,0xb
+logen_mode5g4=149,165,0,0xa
+alt_gaintbl_5g=1
+
